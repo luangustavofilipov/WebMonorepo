@@ -35,3 +35,17 @@ header.container {
   width: fit-content;
   text-align: center;
 }
+
+div.content-container {
+  border: 1px solid red;
+  float: left;
+  height: 650px;
+  width: 250px;
+}
+
+div.content-center {
+  border: 1px solid red;
+  margin: auto;
+  height:650px;
+  width: 900px;
+}
