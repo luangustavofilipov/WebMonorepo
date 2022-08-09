@@ -4,29 +4,34 @@
 }
 
 div.navbar ul {
-  padding: 0;
-  margin: 0;
+  padding: 2px;
+  margin: 5px;
 }
 
 div.navbar ul li {
   list-style: none;
   display: inline;
+  padding: 5px;
 }
 
 div.navbar ul li a {
-  float: left;
+  display: inline;
   width: 6em;
   padding: 0 0.2em 0.2em 0;
+  margin: 5px;
   text-decoration: none;
   color: black;
-  font: 1em Verdana, Arial, Helvetica, sans-serif;
-  color: #333;
+  font: 1.3em Verdana, Arial, Helvetica, sans-serif;
   text-align: center;
   padding: 0 0.2em 0.2em 0;
 }
 
 div.navbar ul a:hover {
-  background: #999;
-  color: #fff;
-  border-color: #000 #fafafa #fafafa #000;
+  color: #333;
+}
+
+header.container {
+  margin: auto;
+  width: fit-content;
+  text-align: center;
 }
